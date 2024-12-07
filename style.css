@@ -1,0 +1,127 @@
+*, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+    margin: 0;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+.container-navbar {
+    background-color: #333;
+    color: #fff;
+    /* padding: 10px 20px; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+}
+
+/* .h2-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.a-navbar {
+    color: #f4f4f4;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.container-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 80vh;
+}
+
+.img-content {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.container-content .info {
+    /* margin-left: 20px; */
+    text-align: left;
+}
+
+.container-footer {
+    background-color: #333;
+    color: #fff;
+    /* padding: 10px 20px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    /* margin-top: 20px; */
+    height: 10vh;
+}
+
+/* 
+.container-navbar {
+    background-color: ;
+    width: 100%;
+    height: 15vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    font-size: 30px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color:;
+}
+
+.li-navbar:hover {
+    background-color:;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color:;
+    text-decoration: none;
+}
+
+.container-content {
+    background-color:;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container-footer {
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.hi-footer {
+    font-size: 30px;
+} */
